@@ -12,7 +12,7 @@ for n in range(0, N_trials):
     listB = []
 
     for x in range(0, N_picks):
-        listB.append(listA.pop(random.randint(0, len(listA) - 1 - x)))
+        listB.append(listA.pop(random.randint(0, len(listA) - 1 )))
 
     listB = list(set(listB))
     if len(listB) == N_types:
